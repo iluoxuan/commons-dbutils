@@ -33,8 +33,7 @@ public class QueryLoaderTest extends BaseTestCase {
             Map<String,String> q = loader.load(QUERIES);
             Map<String,String> q2 = loader.load(QUERIES);
             assertTrue(q == q2); // pointer comparison should return true
-            System.out.println(q.get("test.query"));
-            assertEquals("SELECT * FROM CHANNEL", q.get("test.query"));
+            assertEquals("SELECT * FROM SomeTable", q.get("test.query"));
 
             loader.unload(QUERIES);
             Map<String,String> q3 = loader.load(QUERIES);
