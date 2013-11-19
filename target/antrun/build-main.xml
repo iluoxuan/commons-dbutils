@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy todir="C:\Documents and Settings\lijunqing\My Documents\GitHub\commons-dbutils\target/apidocs/META-INF">
+    <fileset dir="C:\Documents and Settings\lijunqing\My Documents\GitHub\commons-dbutils">
+      <include name="LICENSE.txt"/>
+      <include name="NOTICE.txt"/>
+    </fileset>
+  </copy>
+</target>
+</project>

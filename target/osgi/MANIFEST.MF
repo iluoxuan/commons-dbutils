@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1384754365191
+Build-Jdk: 1.6.0_24
+Built-By: lijunqing
+Bundle-Description: The Apache Commons DbUtils package is a set of  Java
+  utility classes for easing JDBC development.
+Bundle-DocURL: http://commons.apache.org/proper/commons-dbutils/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Commons DbUtils
+Bundle-SymbolicName: org.apache.commons.dbutils
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 1.6.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.commons.dbutils;version="1.6.0.SNAPSHOT",org.
+ apache.commons.dbutils.wrappers;version="1.6.0.SNAPSHOT",org.apache.com
+ mons.dbutils.handlers;version="1.6.0.SNAPSHOT"
+Import-Package: javax.sql
+Include-Resource: META-INF/LICENSE.txt=LICENSE.txt,META-INF/NOTICE.txt=N
+ OTICE.txt
+Tool: Bnd-1.50.0
